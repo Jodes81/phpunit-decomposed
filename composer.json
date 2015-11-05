@@ -1,0 +1,15 @@
+{
+    "name": "jodes/phpunit-decomposed",
+    "autoload": {
+        "psr-4": {
+            "Jodes\\PHPUnitDecomposed\\": "src",
+            "Jodes\\PHPUnitDecomposed\\Test\\": "test"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "@stable"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
